@@ -46,9 +46,21 @@
         </nav>
         <!-- Navbar End -->
 
+        <div class="hero">
+            <div class="hero-title">
+                <img src="./assets/images/common/logo-invert.svg" alt="logo">
+                <h1>Retail <span class="text-green">Camping</span> Company</h1>
+            </div>
+            <a href="#main" class="go-to-main">
+                <small>Scroll Down</small>
+                <img src="./assets/images/home/more.svg" alt="see more">
+            </a>
+            <img src="./assets/images/home/hero.jpg" alt="hero image">
+        </div>
+
         <!-- Main Start -->
-        <main>
-            <div class="hero">
+        <main id="main">
+            <div class="wrapper">
                 <div class="slide-show-container">
                     <div class="slide-show">
                         <div class="slide-shop">
@@ -58,27 +70,360 @@
                                 <a href="./furnitures.html">Furnitures</a>
                             </div>
                         </div>
-                        <img src="./assets/images/home/slide-1.jpg" alt="">
-                        <img src="./assets/images/home/slide-2.jpg" alt="">
-                        <img src="./assets/images/home/slide-3.jpg" alt="">
-                        <img src="./assets/images/home/slide-4.jpg" alt="">
-                        <img src="./assets/images/home/slide-1.jpg" alt="">
+                        <img src="./assets/images/home/slide-1.jpg" alt="slide 1 of 4">
+                        <img src="./assets/images/home/slide-2.jpg" alt="slide 2 of 4">
+                        <img src="./assets/images/home/slide-3.jpg" alt="slide 3 of 4">
+                        <img src="./assets/images/home/slide-4.jpg" alt="slide 4 of 4">
+                        <img src="./assets/images/home/slide-1.jpg" alt="slide 1 of 4">
                     </div>
                 </div>
-                <div class="hero-boxes">
-                    <a href="./offers.html" class="hero-box">
-                        <img class="hero-icon" src="./assets/images/home/offer.svg" alt="offers">
+                <div class="wrapper-boxes">
+                    <a href="./offers.html" class="wrapper-box">
+                        <img class="wrapper-icon" src="./assets/images/home/offer.svg" alt="offers">
                         <h2 class="lg-show">Offers and Packages</h2>
                         <h2 class="lg-hidden">Offers</h2>
                         <small>New Year Discounts (Up to 50%)</small>
                     </a>
-                    <a href="./reviews.html" class="hero-box">
-                        <img class="hero-icon" src="./assets/images/home/reviews.svg" alt="reviews">
+                    <a href="./reviews.html" class="wrapper-box">
+                        <img class="wrapper-icon" src="./assets/images/home/reviews.svg" alt="reviews">
                         <h2>Reviews</h2>
                         <small>Feedback from our Customers</small>
                     </a>
                 </div>
             </div>
+
+            <!-- Special Offers Start -->
+            <section class="slider-container">
+                <div class="slider-head">
+                    <img class="right-arrow" src="./assets/images/common/right-arrow.svg" alt="right arrow">
+                    <h3 class="slider-title">This Month's Special Offers</h3>
+                </div>
+                <div class="slider-body">
+                    <div class="card">
+                        <div class="deals">Deals</div>
+                        <div class="card-img">
+                            <img src="./assets/images/furnitures/folding-camping-chair.png" alt="folding camping chair">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h4>Folding Camping Chair</h4>
+                                <small>Chair</small>
+                                <h3><span>£199</span> £149</h3>
+                                <span>
+                                    <img class="star" src="./assets/images/common/star-fill.svg" alt="star-fill">
+                                    <img class="star" src="./assets/images/common/star-fill.svg" alt="star-fill">
+                                    <img class="star" src="./assets/images/common/star-fill.svg" alt="star-fill">
+                                    <img class="star" src="./assets/images/common/star-fill.svg" alt="star-fill">
+                                    <img class="star" src="./assets/images/common/star-fill.svg" alt="star-fill">
+                                    <small>(36)</small>
+                                </span>
+                            </div>
+                            <button class="add-to-cart">
+                                <img class="cart" src="./assets/images/common/shopping-cart.svg" alt="cart">
+                                <span>Add to Cart</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="deals">Deals</div>
+                        <div class="card-img">
+                            <img src="./assets/images/equipments/backpacking-stoves.png" alt="back packing stove">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h4>Backpacking Stoves</h4>
+                                <small>Cooker</small>
+                                <h3><span>£109</span> £99</h3>
+                                <span>
+                                    <img class="star" src="./assets/images/common/star-fill.svg" alt="star-fill">
+                                    <img class="star" src="./assets/images/common/star-fill.svg" alt="star-fill">
+                                    <img class="star" src="./assets/images/common/star-fill.svg" alt="star-fill">
+                                    <img class="star" src="./assets/images/common/star-half.svg" alt="star-half">
+                                    <img class="star" src="./assets/images/common/star-outline.svg" alt="star-outline">
+                                    <small>(12)</small>
+                                </span>
+                            </div>
+                            <button class="add-to-cart">
+                                <img class="cart" src="./assets/images/common/shopping-cart.svg" alt="cart">
+                                <span>Add to Cart</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="deals">Deals</div>
+                        <div class="card-img">
+                            <img src="./assets/images/equipments/camping-knife.png" alt="camping knife">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h4>Camping Knife</h4>
+                                <small>Tools</small>
+                                <h3><span>£39</span> £30</h3>
+                                <span>
+                                    <img class="star" src="./assets/images/common/star-fill.svg" alt="star-fill">
+                                    <img class="star" src="./assets/images/common/star-fill.svg" alt="star-fill">
+                                    <img class="star" src="./assets/images/common/star-fill.svg" alt="star-fill">
+                                    <img class="star" src="./assets/images/common/star-half.svg" alt="star-half">
+                                    <img class="star" src="./assets/images/common/star-outline.svg" alt="star-outline">
+                                    <small>(12)</small>
+                                </span>
+                            </div>
+                            <button class="add-to-cart">
+                                <img class="cart" src="./assets/images/common/shopping-cart.svg" alt="cart">
+                                <span>Add to Cart</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./assets/images/equipments/swiss-army-knife.png" alt="swiss army knife">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h4>Camping Swiss Army Knife</h4>
+                                <small>Tools</small>
+                                <h3><span>£29</span> £25</h3>
+                                <span>
+                                    <img class="star" src="./assets/images/common/star-fill.svg" alt="star-fill">
+                                    <img class="star" src="./assets/images/common/star-fill.svg" alt="star-fill">
+                                    <img class="star" src="./assets/images/common/star-fill.svg" alt="star-fill">
+                                    <img class="star" src="./assets/images/common/star-fill.svg" alt="star-fill">
+                                    <img class="star" src="./assets/images/common/star-fill.svg" alt="star-fill">
+                                    <small>(23)</small>
+                                </span>
+                            </div>
+                            <button class="add-to-cart">
+                                <img class="cart" src="./assets/images/common/shopping-cart.svg" alt="cart">
+                                <span>Add to Cart</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./assets/images/furnitures/12-persons-tent.png" alt="12 persons tent">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h4>12 Person Camping Tent</h4>
+                                <small>Tent</small>
+                                <h3><span>£999</span> £889</h3>
+                                <span>
+                                    <img class="star" src="./assets/images/common/star-fill.svg" alt="star-fill">
+                                    <img class="star" src="./assets/images/common/star-fill.svg" alt="star-fill">
+                                    <img class="star" src="./assets/images/common/star-fill.svg" alt="star-fill">
+                                    <img class="star" src="./assets/images/common/star-fill.svg" alt="star-fill">
+                                    <img class="star" src="./assets/images/common/star-fill.svg" alt="star-fill">
+                                    <small>(23)</small>
+                                </span>
+                            </div>
+                            <button class="add-to-cart">
+                                <img class="cart" src="./assets/images/common/shopping-cart.svg" alt="cart">
+                                <span>Add to Cart</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./assets/images/equipments/stainless-water-bottle.png" alt="stainless water bottle">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h4>Camping Stainless Water Bottle</h4>
+                                <small>Water Bottle</small>
+                                <h3><span>£29</span> £25</h3>
+                                <span>
+                                    <img class="star" src="./assets/images/common/star-fill.svg" alt="star-fill">
+                                    <img class="star" src="./assets/images/common/star-fill.svg" alt="star-fill">
+                                    <img class="star" src="./assets/images/common/star-fill.svg" alt="star-fill">
+                                    <img class="star" src="./assets/images/common/star-fill.svg" alt="star-fill">
+                                    <img class="star" src="./assets/images/common/star-half.svg" alt="star-half">
+                                    <small>(21)</small>
+                                </span>
+                            </div>
+                            <button class="add-to-cart">
+                                <img class="cart" src="./assets/images/common/shopping-cart.svg" alt="cart">
+                                <span>Add to Cart</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Special Offers End -->
+
+            <!-- Brave Choices Start -->
+                        <section class="slider-container">
+                <div class="slider-head">
+                    <img class="right-arrow" src="./assets/images/common/right-arrow.svg" alt="right arrow">
+                    <img class="profile-pic" src="./assets/images/home/brave.jpeg" alt="brave's profile picture">
+                    <h3 class="slider-title">Brave's best choices</h3>
+                </div>
+                <div class="slider-body">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./assets/images/furnitures/dome-camping-tent.png" alt="dome camping tent">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h4>Dome Camping Tent</h4>
+                                <small>Tent</small>
+                                <h3>£599</h3>
+                                <span>
+                                    <img class="star" src="./assets/images/common/star-fill.svg" alt="star-fill">
+                                    <img class="star" src="./assets/images/common/star-fill.svg" alt="star-fill">
+                                    <img class="star" src="./assets/images/common/star-fill.svg" alt="star-fill">
+                                    <img class="star" src="./assets/images/common/star-fill.svg" alt="star-fill">
+                                    <img class="star" src="./assets/images/common/star-fill.svg" alt="star-fill">
+                                    <small>(23)</small>
+                                </span>
+                            </div>
+                            <button class="add-to-cart">
+                                <img class="cart" src="./assets/images/common/shopping-cart.svg" alt="cart">
+                                <span>Add to Cart</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./assets/images/equipments/travel-mountain-bag.png" alt="travel mountain bag">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h4>Travel Mountain Bag</h4>
+                                <small>Travel Bag</small>
+                                <h3>£349</h3>
+                                <span>
+                                    <img class="star" src="./assets/images/common/star-fill.svg" alt="star-fill">
+                                    <img class="star" src="./assets/images/common/star-fill.svg" alt="star-fill">
+                                    <img class="star" src="./assets/images/common/star-fill.svg" alt="star-fill">
+                                    <img class="star" src="./assets/images/common/star-fill.svg" alt="star-fill">
+                                    <img class="star" src="./assets/images/common/star-half.svg" alt="star-half">
+                                    <small>(28)</small>
+                                </span>
+                            </div>
+                            <button class="add-to-cart">
+                                <img class="cart" src="./assets/images/common/shopping-cart.svg" alt="cart">
+                                <span>Add to Cart</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="deals">Deals</div>
+                        <div class="card-img">
+                            <img src="./assets/images/equipments/backpacking-stoves.png" alt="back packing stove">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h4>Backpacking Stove</h4>
+                                <small>Cooker</small>
+                                <h3><span>£109</span> £99</h3>
+                                <span>
+                                    <img class="star" src="./assets/images/common/star-fill.svg" alt="star-fill">
+                                    <img class="star" src="./assets/images/common/star-fill.svg" alt="star-fill">
+                                    <img class="star" src="./assets/images/common/star-fill.svg" alt="star-fill">
+                                    <img class="star" src="./assets/images/common/star-half.svg" alt="star-half">
+                                    <img class="star" src="./assets/images/common/star-outline.svg" alt="star-outline">
+                                    <small>(12)</small>
+                                </span>
+                            </div>
+                            <button class="add-to-cart">
+                                <img class="cart" src="./assets/images/common/shopping-cart.svg" alt="cart">
+                                <span>Add to Cart</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="deals">Deals</div>
+                        <div class="card-img">
+                            <img src="./assets/images/furnitures/folding-camping-chair.png" alt="folding camping chair">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h4>Folding Camping Chair</h4>
+                                <small>Chair</small>
+                                <h3><span>£199</span> £149</h3>
+                                <span>
+                                    <img class="star" src="./assets/images/common/star-fill.svg" alt="star-fill">
+                                    <img class="star" src="./assets/images/common/star-fill.svg" alt="star-fill">
+                                    <img class="star" src="./assets/images/common/star-fill.svg" alt="star-fill">
+                                    <img class="star" src="./assets/images/common/star-fill.svg" alt="star-fill">
+                                    <img class="star" src="./assets/images/common/star-fill.svg" alt="star-fill">
+                                    <small>(36)</small>
+                                </span>
+                            </div>
+                            <button class="add-to-cart">
+                                <img class="cart" src="./assets/images/common/shopping-cart.svg" alt="cart">
+                                <span>Add to Cart</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./assets/images/furnitures/sleeping-pad-with-foot-pump.png" alt="sleeping pad with foot pump">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h4>Sleeping Pad with Foot Pump</h4>
+                                <small>Sleeping Pad</small>
+                                <h3>£49</h3>
+                                <span>
+                                    <img class="star" src="./assets/images/common/star-fill.svg" alt="star-fill">
+                                    <img class="star" src="./assets/images/common/star-fill.svg" alt="star-fill">
+                                    <img class="star" src="./assets/images/common/star-fill.svg" alt="star-fill">
+                                    <img class="star" src="./assets/images/common/star-fill.svg" alt="star-fill">
+                                    <img class="star" src="./assets/images/common/star-half.svg" alt="star-half">
+                                    <small>(26)</small>
+                                </span>
+                            </div>
+                            <button class="add-to-cart">
+                                <img class="cart" src="./assets/images/common/shopping-cart.svg" alt="cart">
+                                <span>Add to Cart</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./assets/images/furnitures/camping-lantern.png" alt="camping lantern">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h4>Camping Lantern</h4>
+                                <small>Lantern</small>
+                                <h3>£29</h3>
+                                <span>
+                                    <img class="star" src="./assets/images/common/star-fill.svg" alt="star-fill">
+                                    <img class="star" src="./assets/images/common/star-fill.svg" alt="star-fill">
+                                    <img class="star" src="./assets/images/common/star-fill.svg" alt="star-fill">
+                                    <img class="star" src="./assets/images/common/star-fill.svg" alt="star-fill">
+                                    <img class="star" src="./assets/images/common/star-fill.svg" alt="star-fill">
+                                    <small>(23)</small>
+                                </span>
+                            </div>
+                            <button class="add-to-cart">
+                                <img class="cart" src="./assets/images/common/shopping-cart.svg" alt="cart">
+                                <span>Add to Cart</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Brave Choices End -->
+
+            <!-- Featured Video Start -->
+            <section>
+                <h1 class="center-title">Featured Video</h1>
+                <object class="vid-plugin" type="video/mp4" data="https://www.youtube.com/embed/5IIP8SNYnZM"></object>
+            </section>
+            <!-- Featured Video End -->
         </main>
         <!-- Main End -->
 
@@ -120,6 +465,20 @@
                 <a href="reviews.html" class="footer-link">Reviews</a>
                 <a href="basket.html" class="footer-link">Basket</a>
                 <a href="offers.html" class="footer-link">Offers and Packages</a>
+            </div>
+            <div class="footer-info">
+                <a class="footer-social" href="#">
+                    <img src="./assets/images/common/facebook.svg" alt="facebook">
+                </a>
+                <a class="footer-social" href="#">
+                    <img src="./assets/images/common/instagram.svg" alt="instagram">
+                </a>
+                <a class="footer-social" href="#">
+                    <img src="./assets/images/common/twitter.svg" alt="twitter">
+                </a>
+                <a class="footer-social" href="#">
+                    <img src="./assets/images/common/youtube.svg" alt="youtube">
+                </a>
             </div>
             <p class="copyright">© RCC Retail Camping Company 1999 - 2023</p>
         </footer>
