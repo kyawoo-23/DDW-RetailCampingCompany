@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cart</title>
+        <link rel="icon" type="image/x-icon" href="./assets/images/common/favicon.svg">
+        <link rel="stylesheet" href="./assets/styles.css">
+    </head>
+    <body>
+        <!-- Navbar Start -->
+        <nav>
+            <div class="brand-logo">
+                <a href="index.html">
+                    <img class="logo" src="./assets/images/common/logo.svg" alt="logo">
+                </a>
+            </div>
+            <div class="nav-links lg-show">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="equipments.html" class="nav-link">Equipments</a>
+                <a href="furnitures.html" class="nav-link">Furnitures</a>
+                <a href="reviews.html" class="nav-link">Reviews</a>
+                <a href="offers.html" class="nav-link">Offers</a>
+            </div>
+            <div class="nav-links">
+                <a href="#login" class="nav-link">Login</a>
+                <a href="basket.html" class="nav-link basket active">
+                    <img class="basket-icon" src="./assets/images/common/shopping-cart.svg" alt="basket">
+                    <span class="lg-show">Cart</span>
+                </a>
+                <div class="lg-hidden hamburger-container">
+                    <input type="checkbox" class="hamburger">
+                    <span class="first"></span>
+                    <span class="second"></span>
+                    <span class="third"></span>
+                    <div class="overlay">
+                        <a href="index.html" class="nav-link-2">Home</a>
+                        <a href="equipments.html" class="nav-link-2">Equipments</a>
+                        <a href="furnitures.html" class="nav-link-2">Furnitures</a>
+                        <a href="reviews.html" class="nav-link-2">Reviews</a>
+                        <a href="offers.html" class="nav-link-2">Offers</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Main Start -->
+        <main id="main">
+           <div class="shopping-cart">
+                <div class="cart-left">
+                    <h2 class="cart-title">Shopping Cart</h2>
+                    <div class="cart-list">
+                        <div class="cart-item">
+                            <div class="cart-item-img">
+                                <img src="./assets/images/equipments/hiking-wind-breaker.png" alt="hiking wind breaker">
+                            </div>
+                            <div class="cart-item-info">
+                                <h3>Hiking Wind Breaker</h3>
+                                <div class="number-counter">
+                                    <img src="./assets/images/basket/minus.svg" alt="minus">
+                                    <span>1</span>
+                                    <img src="./assets/images/basket/plus.svg" alt="plus">
+                                </div>
+                                <div class="cart-price">
+                                    <h3><span>£39</span> £30</h3>
+                                    <p class="remove">Remove</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="cart-item">
+                            <div class="cart-item-img">
+                                <img src="./assets/images/furnitures/dome-camping-tent.png" alt="dome camping tent">
+                            </div>
+                            <div class="cart-item-info">
+                                <h3>Dome Camping Tent</h3>
+                                <div class="number-counter">
+                                    <img src="./assets/images/basket/minus.svg" alt="minus">
+                                    <span>1</span>
+                                    <img src="./assets/images/basket/plus.svg" alt="plus">
+                                </div>
+                                <div class="cart-price">
+                                    <h3>£299</h3>
+                                    <p class="remove">Remove</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="cart-item">
+                            <div class="cart-item-img">
+                                <img src="./assets/images/equipments/hydration-backup.png" alt="hydration backup">
+                            </div>
+                            <div class="cart-item-info">
+                                <h3>Hydration Backup</h3>
+                                <div class="number-counter">
+                                    <img src="./assets/images/basket/minus.svg" alt="minus">
+                                    <span>1</span>
+                                    <img src="./assets/images/basket/plus.svg" alt="plus">
+                                </div>
+                                <div class="cart-price">
+                                    <h3><span>£83</span> £70</h3>
+                                    <p class="remove">Remove</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="cart-item">
+                            <div class="cart-item-img">
+                                <img src="./assets/images/equipments/tourism-hiking-boots.png" alt="hiking boots">
+                            </div>
+                            <div class="cart-item-info">
+                                <h3>Hiking Boots</h3>
+                                <div class="number-counter">
+                                    <img src="./assets/images/basket/minus.svg" alt="minus">
+                                    <span>1</span>
+                                    <img src="./assets/images/basket/plus.svg" alt="plus">
+                                </div>
+                                <div class="cart-price">
+                                    <h3><span>£79</span> £55</h3>
+                                    <p class="remove">Remove</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-right">
+                    <h3 class="cart-title">Order Summary</h3>
+                </div>
+           </div>
+        </main>
+        <!-- Main End -->
+
+        <!-- Popup Modal Start -->
+        <div class="backdrop" id="login">
+            <div class="login-form">
+                <a href="#" class="close">
+                    <span></span>
+                    <span></span>
+                </a>
+                <div class="login-img">
+                    <img class="login-img" src="./assets/images/common/logo.svg" alt="logo">
+                </div>
+                <h2 class="center-title">Log in</h2>
+                <form autocomplete="off">
+                    <label class="label-form" for="email">Email:</label>
+                    <input type="email" class="input-form" id="email" placeholder="name@company.com" required autofocus>
+                    <label class="label-form" for="password">Password:</label>
+                    <input type="password" class="input-form" id="password" placeholder="Your Password" required>
+                    <div class="label-form remember">
+                        <input type="checkbox" id="remember">
+                        <label for="remember">Remember me</label>
+                    </div>
+                    <input type="submit" class="btn signin-btn" value="Sign In">
+                </form>
+            </div>
+        </div>
+        <!-- Popup Modal End -->
+
+        <!-- Footer Start -->
+        <footer>
+            <h2 class="center-title">All Tools for your Adventure</h2>
+            <object class="footer-logo" type="image/svg+xml" data="./assets/images/common/logo.svg"></object>
+            <img src="./assets/images/common/wave.svg" alt="wave">
+            <div class="footer-info">
+                <a href="index.html" class="footer-link">Home Page</a>
+                <a href="equipments.html" class="footer-link">Camping Equipments</a>
+                <a href="furnitures.html" class="footer-link">Furnitures</a>
+                <a href="reviews.html" class="footer-link">Reviews</a>
+                <a href="basket.html" class="footer-link">Basket</a>
+                <a href="offers.html" class="footer-link">Offers and Packages</a>
+            </div>
+            <div class="footer-info">
+                <a class="footer-social" href="#">
+                    <img src="./assets/images/common/facebook.svg" alt="facebook">
+                </a>
+                <a class="footer-social" href="#">
+                    <img src="./assets/images/common/instagram.svg" alt="instagram">
+                </a>
+                <a class="footer-social" href="#">
+                    <img src="./assets/images/common/twitter.svg" alt="twitter">
+                </a>
+                <a class="footer-social" href="#">
+                    <img src="./assets/images/common/youtube.svg" alt="youtube">
+                </a>
+            </div>
+            <p class="copyright">© RCC Retail Camping Company 1999 - 2023</p>
+        </footer>
+        <!-- Footer End -->
+    </body>
+</html>
