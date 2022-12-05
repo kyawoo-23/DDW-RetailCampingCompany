@@ -861,7 +861,6 @@ section:last-child {
     justify-content: center;
     font-size: 1.1rem;
     font-weight: 600;
-    text-transform: uppercase;
     position: absolute;
     bottom: 18px;
     right: 15px;
@@ -1172,13 +1171,21 @@ section:last-child {
 .search-bar-container {
     margin: 60px 0;
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.search-title {
+    font-family: 'Fredoka', sans-serif;
+    color: #1b1b1b;
 }
 
 .search-bar {
     position: relative;
     width: fit-content;
     height: 54px;
+    margin-left: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -1257,11 +1264,12 @@ section:last-child {
     cursor: default;
     pointer-events: none;
     position: absolute;
+    z-index: 2;
     top: calc(100% + 15px);
     right: 0;
     width: fit-content;
     height: fit-content;
-    padding: 18px 36px;
+    padding: 18px 30px;
     opacity: 0;
     transition: all .3s;
     background-color: #1B9553;
@@ -1328,6 +1336,42 @@ section:last-child {
     background-color: #1b1b1b;
 }
 
+.products-list {
+    padding-top: 20px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 40px;
+    row-gap: 60px;
+    flex-wrap: wrap;
+}
+
+.show-more-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.show-more-btn {
+    cursor: pointer;
+    background: none;
+    font-family: 'Fredoka', sans-serif;
+    border-radius: 30px;
+    border: 2px solid #1B9553;
+    color: #1b1b1b;
+    font-weight: 600;
+    padding: 12px 40px;
+    transition: all .3s;
+}
+
+.show-more-btn:hover {
+    color: #fbfbfb;
+    background-color: #1B9553;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
 @media only screen and (max-width: 1024px) {
   /* For tablets: */
   .lg-show {
@@ -1360,8 +1404,12 @@ section:last-child {
   .contact-us {
     grid-template-columns: 1fr;
   }
+  .card-img, .card-img img {
+    padding: 12px;
+  }
   .pills-group {
     margin: 20px auto;
+    margin-bottom: 30px;
     row-gap: 15px;
   }
   .pill {
@@ -1371,6 +1419,9 @@ section:last-child {
   }
   .shopping-cart {
     grid-template-columns: 1fr;
+  }
+  .search-bar {
+    margin-left: 0;
   }
 }
 
@@ -1453,6 +1504,9 @@ section:last-child {
     height: 60vh;
     width: 90%;
   }
+  .offers-main {
+    padding: 80px 0;
+  }
   .pills-group {
     margin: 18px auto;
     gap: 10px;
@@ -1477,5 +1531,38 @@ section:last-child {
   }
   .search-checkbox:checked ~ .search-input {
     width: 40vw;
+  }
+  .search-bar {
+    height: 44px;
+  }
+  .search-bar img {
+    width: 22px;
+    height: 22px;
+  }
+  .search-filter {
+    width: 22px;
+    height: 22px;
+  }
+  .filter-box {
+    right: -30px;
+  }
+  .search-filter span {
+    width: 22px;
+    height: 2px;
+  }
+  .search-filter span:nth-child(2) {
+    transform: translateY(2px);
+  }
+  .search-filter span:nth-child(3) {
+    transform: translateY(11px);
+  }
+  .search-filter span:nth-child(4) {
+    transform: translateY(20px);
+  }
+  .search-checkbox:checked ~ .search-filter span:nth-child(2) {
+    transform: translateY(11px) rotate(45deg);
+  }
+  .search-checkbox:checked ~ .search-filter span:nth-child(4) {
+    transform: translateY(11px) rotate(135deg);
   }
 }
