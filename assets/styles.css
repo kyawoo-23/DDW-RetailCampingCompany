@@ -851,6 +851,7 @@ section:last-child {
 
 .add-to-cart {
     cursor: pointer;
+    font-family: 'Poppins', sans-serif;
     color: #fbfbfb;
     background-color: #1B9553;
     border: none;
