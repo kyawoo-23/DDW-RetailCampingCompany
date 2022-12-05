@@ -1111,7 +1111,6 @@ section:last-child {
 }
 
 .cart-right {
-    background-color: #e9eeec;
     padding: 24px;
     border-radius: 10px;
     align-self: flex-start;
@@ -1149,14 +1148,14 @@ section:last-child {
 }
 
 .checkout-btn {
+    font-family: 'Poppins', sans-serif;
     cursor: pointer;
     width: 100%;
     background-color: #1B9553;
     border: none;
     color: #fbfbfb;
-    text-transform: uppercase;
-    font-size: 1.2rem;
-    font-weight: 600;
+    font-size: 1.18rem;
+    font-weight: 550;
     margin: 10px 0;
     padding: 15px 0;
     border-radius: 5px;
@@ -1281,6 +1280,10 @@ section:last-child {
     flex-direction: column;
 }
 
+.filter-box {
+    background-color: #774EB0;
+}
+
 .filter-box a {
     white-space: nowrap;
     transition: color .2s;
@@ -1305,6 +1308,10 @@ section:last-child {
 .filter-checkbox:checked ~ .filter-box {
     opacity: 1;
     pointer-events: all;
+}
+
+.filter-checkbox.offers:checked ~ span {
+    background-color: #774EB0;
 }
 
 .search-filter span {
@@ -1337,6 +1344,16 @@ section:last-child {
 .search-checkbox:checked ~ .search-filter span:nth-child(4) {
     transform: translateY(13px) rotate(135deg);
     background-color: #1b1b1b;
+}
+
+.search-checkbox:checked ~ .search-filter.offers span:nth-child(2) {
+    background-color: #774EB0;
+}
+.search-checkbox:checked ~ .search-filter.offers span:nth-child(3) {
+    background-color: #774EB0;
+}
+.search-checkbox:checked ~ .search-filter.offers span:nth-child(4) {
+    background-color: #774EB0;
 }
 
 .products-list {
@@ -1747,7 +1764,7 @@ section:last-child {
     align-items: center;
   }
   .search-checkbox:checked ~ .search-input {
-    width: 40vw;
+    width: 50vw;
   }
   .search-bar {
     height: 44px;
