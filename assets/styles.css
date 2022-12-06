@@ -1281,7 +1281,7 @@ section:last-child {
     flex-direction: column;
 }
 
-.filter-box {
+.filter-box.offers {
     background-color: #774EB0;
 }
 
@@ -1345,16 +1345,6 @@ section:last-child {
 .search-checkbox:checked ~ .search-filter span:nth-child(4) {
     transform: translateY(13px) rotate(135deg);
     background-color: #1b1b1b;
-}
-
-.search-checkbox:checked ~ .search-filter.offers span:nth-child(2) {
-    background-color: #774EB0;
-}
-.search-checkbox:checked ~ .search-filter.offers span:nth-child(3) {
-    background-color: #774EB0;
-}
-.search-checkbox:checked ~ .search-filter.offers span:nth-child(4) {
-    background-color: #774EB0;
 }
 
 .products-list {
@@ -1846,6 +1836,9 @@ section:last-child {
 }
 
 @media (prefers-reduced-motion) {
+  body, html {
+    scroll-behavior: auto;
+  }
   .slide-shop {
     background-color: rgba(122, 138, 124);
     transform: translateY(0);
