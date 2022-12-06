@@ -871,10 +871,10 @@ section:last-child {
 }
 
 .add-to-cart:hover {
-    transform: scale(1.04);
+    transform: scale(1.06);
 }
 .add-to-cart:active {
-    transform: scale(0.96);
+    transform: scale(0.94);
 }
 
 .cart {
@@ -1842,5 +1842,27 @@ section:last-child {
   }
   .md-span-two {
     grid-column: span 2;
+  }
+}
+
+@media (prefers-reduced-motion) {
+  .slide-shop {
+    background-color: rgba(122, 138, 124);
+    transform: translateY(0);
+  }
+  .wrapper-box:first-child:hover .wrapper-icon {
+    transform: rotate(0);
+  }
+  .wrapper-box:last-child:hover .wrapper-icon {
+    transform: scale(1);
+  }
+  .card:hover .card-img {
+    transform: scale(1);
+  }
+  .add-to-cart:hover {
+    transform: scale(1);
+  }
+  .add-to-cart:active {
+    transform: scale(1);
   }
 }
