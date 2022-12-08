@@ -1814,7 +1814,6 @@ section:last-child {
     margin-top: 50px;
   }
   .review-details {
-    gap: 25px;
     margin-top: 20px;
   }
   .user-portfolio img {
@@ -1824,13 +1823,6 @@ section:last-child {
   .user-name {
     font-size: 1rem;
   }
-  /* .review-text {
-    display: -webkit-box;
-    overflow : hidden;
-    text-overflow: ellipsis;
-    -webkit-line-clamp: 4;
-    -webkit-box-orient: vertical;  
-  } */
   .review-right {
     padding: 0;
     box-shadow: none;
