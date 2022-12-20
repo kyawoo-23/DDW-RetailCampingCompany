@@ -1860,6 +1860,7 @@ section:last-child {
 }
 
 @media (prefers-reduced-motion) {
+  /* For reduced motions preferred users */
   body, html {
     scroll-behavior: auto;
   }
