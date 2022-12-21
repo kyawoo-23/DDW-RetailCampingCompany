@@ -1850,8 +1850,7 @@ section:last-child {
     font-size: 1rem;
   }
   .review-right {
-    padding: 0;
-    box-shadow: none;
+    padding: 24px 16px;
   }
   .md-span-two {
     grid-column: span 2;
