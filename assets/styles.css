@@ -1137,7 +1137,8 @@ section:last-child {
     position: sticky;
     position: -webkit-sticky;
     top: 100px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    background-color: #f9f8f7;
+    box-shadow: rgba(177, 238, 206, 0.75) 0px 13px 27px -5px, rgba(173, 221, 196, 0.8) 0px 8px 16px -8px;
 }
 
 .order-info {
@@ -1516,7 +1517,8 @@ section:last-child {
     align-items: center;
     padding: 24px;
     border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    background-color: rgba(248, 248, 248, .98);
+    box-shadow: rgba(177, 238, 206, 0.75) 0px 13px 20px -5px, rgba(173, 221, 196, 0.8) 0px 4px 8px -8px;
 }
 
 .review-right > .reviews-title {
@@ -1536,7 +1538,7 @@ section:last-child {
 
 .review-input {
     margin-top: 10px;
-    background-color: #fbfbfb;
+    background-color: #ecebec;
     border: none;
     border-radius: 10px;
     padding: 10px;
