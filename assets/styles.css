@@ -1214,6 +1214,7 @@ section:last-child {
 .pdf-plugin > div > iframe {
     width: 70vw;
     height: 75vh;
+    border: none;
 }
 
 .search-bar-container {
