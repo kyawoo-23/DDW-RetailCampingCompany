@@ -1197,6 +1197,7 @@ section:last-child {
     min-width: auto;
     max-width: 100%;
     object-fit: contain;
+    margin-top: 50px;
 }
 
 .pdf-plugin {
