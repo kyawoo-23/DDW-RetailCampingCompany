@@ -933,8 +933,8 @@ section:last-child {
 }
 
 .see-more img {
-    height: 100%;
-    width: 100%;
+    height: 150px;
+    width: 150px;
     transition-property: transform, opacity;
     transition-duration: .6s;
     transform: translateX(-150px);
